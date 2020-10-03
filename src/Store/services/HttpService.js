@@ -1,6 +1,6 @@
 import axios from "axios";
 class HttpService {
-  baseLaravelUrl = "http://localhost:1300/api";
+  baseLaravelUrl = "https://todoapi01.herokuapp.com/api";
   baseApiUrl = "https://jsonplaceholder.typicode.com";
   
   postData = async (item, url) => {
